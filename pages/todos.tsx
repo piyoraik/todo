@@ -7,7 +7,6 @@ import { listTodos } from '@/graphql/queries'
 import { noNull } from '@/lib/filter'
 import { query } from '@/lib/graphql'
 import { configure } from '@/my-aws-exports'
-import { button } from '@aws-amplify/ui'
 import { onAuthUIStateChange } from '@aws-amplify/ui-components'
 import { useEffect, useState } from 'react'
 
